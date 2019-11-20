@@ -1,4 +1,4 @@
-package com.vogella.android.android4a;
+package com.vogella.android.apilol;
 
 import android.content.Context;
 
@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
-        assertEquals("com.vogella.android.android4a", appContext.getPackageName());
+        assertEquals("com.vogella.android.apilol", appContext.getPackageName());
     }
 }

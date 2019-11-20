@@ -1,4 +1,4 @@
-package com.vogella.android.android4a;
+package com.vogella.android.apilol;
 
 import org.junit.Test;
 
