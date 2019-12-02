@@ -1,10 +1,6 @@
 package com.vogella.android.projet4a.RestApi;
 
 
-//import com.example.filmdatabase.model.Genre;
-//import com.example.filmdatabase.model.RestDetailResponse;
-//import com.example.filmdatabase.model.RestListResponse;
-
 import com.vogella.android.projet4a.model.AnimeDetail;
 import com.vogella.android.projet4a.model.ListResponse;
 

@@ -36,8 +36,17 @@ public class DetailActivity extends AppCompatActivity {
         detailcontroller.onCreate(idAnime);
     }
 
-    public void showDetails(AnimeDetail anime) {
-        TextView textOverview = findViewById(R.id.titleDetail);
-        textOverview.setText(anime.getSynopsis());
+    public void showDetails(String Synopsie, String img_url ) {
+        TextView textSynopsis = findViewById(R.id.synopsis);
+        textSynopsis.setText(Synopsie);
+
+        if (img_url != null) {
+            ImageView imageAnime = findViewById(R.id.ImageAnime);
+            Picasso.with(this).load(img_url).into(imageAnime);
+        }
+    }
+
+    public void showError() {
+
     }
 }
