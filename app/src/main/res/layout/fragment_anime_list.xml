@@ -7,5 +7,5 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layoutManager="LinearLayoutManager"
-    tools:context=".AnimeFragment"
+    tools:context=".view.AnimeFragment"
     tools:listitem="@layout/row_layout" />

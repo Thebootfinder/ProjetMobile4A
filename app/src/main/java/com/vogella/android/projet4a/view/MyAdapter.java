@@ -20,8 +20,14 @@ import com.vogella.android.projet4a.model.Anime;
 
 public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
 
+    public static final String ID_ANIME = "idAnime";
     private List<Anime> values;
     private Context context;
+    private final OnItemClickListener listener;
+
+    public interface OnItemClickListener {
+        void onItemClick(Anime item);
+    }
 
     // Provide a reference to the views for each data item
     // Complex data items may need more than one view per item, and
@@ -56,10 +62,11 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
     }*/
 
     // Provide a suitable constructor (depends on the kind of dataset) ICICICICICCICICICICICICICI
-    public MyAdapter(List<Anime> myDataset , Context context)
+    public MyAdapter(List<Anime> myDataset, Context context, OnItemClickListener listener)
     {
        this.context = context;
         values = myDataset;
+        this.listener = listener;
     }
 
     // Create new views (invoked by the layout manager)
@@ -88,11 +95,10 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
         // - replace the contents of the view with that element
         final Anime currentAnime = values.get(position);
         holder.txtHeader.setText(currentAnime.getTitle());
-        holder.txtHeader.setOnClickListener(new OnClickListener() {
-
-            @Override  // ICI PROBLEME
+        holder.itemView.setOnClickListener(new OnClickListener() {
+            @Override
             public void onClick(View v) {
-              //  remove(position);  // Pourquoi remove veut pas ?
+                listener.onItemClick(currentAnime);
             }
         });
 

@@ -1,5 +1,6 @@
-package com.vogella.android.projet4a;
+package com.vogella.android.projet4a.view;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -11,9 +12,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.vogella.android.projet4a.R;
 import com.vogella.android.projet4a.controller.MainController;
 import com.vogella.android.projet4a.model.Anime;
-import com.vogella.android.projet4a.view.MyAdapter;
 
 import java.util.List;
 
@@ -55,7 +56,14 @@ public class AnimeFragment extends Fragment {
 
 
 
-        RecyclerView.Adapter mAdapter = new MyAdapter(input, getActivity());
+        RecyclerView.Adapter mAdapter = new MyAdapter(input, getActivity(), new MyAdapter.OnItemClickListener() {
+            @Override
+            public void onItemClick(Anime item) {
+                Intent intent = new Intent(getContext(), DetailActivity.class);
+                intent.putExtra(MyAdapter.ID_ANIME, item.getMal_id());
+                startActivity(intent);
+            }
+        });
         recyclerView.setAdapter(mAdapter);
 
        /*
