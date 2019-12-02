@@ -1,11 +1,13 @@
 package com.vogella.android.projet4a.view;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.FragmentManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
 
+import com.vogella.android.projet4a.AnimeFragment;
 import com.vogella.android.projet4a.R;
 import com.vogella.android.projet4a.controller.MainController;
 import com.vogella.android.projet4a.model.Anime;
@@ -15,6 +17,34 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
+
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+        showFragment(new AnimeFragment());
+    }
+
+    private void showFragment (AnimeFragment fragment) {
+        FragmentManager fragmentManager = getSupportFragmentManager();
+        fragmentManager.beginTransaction()
+                .replace(R.id.fragmentView, fragment)
+                .commit();
+    }
+
+
+
+
+
+
+
+
+
+
+
+    /*
         private RecyclerView recyclerView;
         private RecyclerView.Adapter mAdapter;
         private RecyclerView.LayoutManager layoutManager;
@@ -52,5 +82,5 @@ public class MainActivity extends AppCompatActivity {
         // define an adapter
         mAdapter = new MyAdapter(input, this);
         recyclerView.setAdapter(mAdapter);
-    }
+    }*/
 }

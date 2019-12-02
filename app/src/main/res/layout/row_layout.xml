@@ -72,7 +72,7 @@
         android:layout_alignRight="@+id/firstLine" />
 
     <ImageView
-        android:id="@+id/addTosee"
+        android:id="@+id/addListVue"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_below="@+id/firstLine"

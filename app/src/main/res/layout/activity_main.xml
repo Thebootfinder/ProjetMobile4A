@@ -6,12 +6,10 @@
     android:layout_height="match_parent"
     tools:context=".view.MainActivity">
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/my_recycler_view"
+    <FrameLayout
+        android:id="@+id/fragmentView"
+        android:name="com.vogella.android.projet4a.AnimeFragment"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:scrollbars="vertical"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
+        android:layout_height="match_parent"
+        />
 </androidx.constraintlayout.widget.ConstraintLayout>

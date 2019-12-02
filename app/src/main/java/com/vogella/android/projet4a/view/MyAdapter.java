@@ -20,7 +20,6 @@ import com.vogella.android.projet4a.model.Anime;
 
 public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
 
-    private static final String BASE_URL_IMG = "https://api.jikan.moe/v3/";
     private List<Anime> values;
     private Context context;
 
@@ -114,7 +113,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
         }
        // holder.txtFooter.setText("Footer: " + name);
         holder.txtLower.setText(currentAnime.getStart_date());
-        Picasso.with(context).load(BASE_URL_IMG+currentAnime.getImage_url()).into(holder.imgView);
+        Picasso.with(context).load(currentAnime.getImage_url()).into(holder.imgView);
     }
 
 
