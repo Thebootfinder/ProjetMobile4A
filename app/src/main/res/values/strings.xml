@@ -1,4 +1,11 @@
 <resources>
     <string name="app_name">Projet4A</string>
     <string name="your_own_library">Your Own Library</string>
+    <string name="synopsie">Synopsis</string>
+    <string name="titre">titre</string>
+    <string name="note">note</string>
+    <string name="rank">Rank</string>
+    <string name="age">age</string>
+    <string name="classement">classement</string>
+    <string name="synop">synopsis</string>
 </resources>

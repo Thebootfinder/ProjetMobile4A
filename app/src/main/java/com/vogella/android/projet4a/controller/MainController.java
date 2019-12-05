@@ -1,14 +1,15 @@
 package com.vogella.android.projet4a.controller;
 
 import android.util.Log;
-import android.widget.Toast;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import com.vogella.android.projet4a.AnimeFragment;
+import com.vogella.android.projet4a.Constants;
+import com.vogella.android.projet4a.RestApi.AnimeRestAPI;
+import com.vogella.android.projet4a.Singleton;
+import com.vogella.android.projet4a.view.AnimeFragment;
 import com.vogella.android.projet4a.model.Anime;
 import com.vogella.android.projet4a.model.ListResponse;
-import com.vogella.android.projet4a.view.MainActivity;
 
 import java.util.List;
 
@@ -16,28 +17,16 @@ import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 import retrofit2.Retrofit;
-import com.google.gson.Gson;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 public class MainController {
 
     private AnimeFragment activity;
-    private static final String BASE_URL = "https://api.jikan.moe/v3/";
 
     public MainController(AnimeFragment activity) { this.activity = activity;}
 
     public void onCreate() {
-
-        Gson gson = new GsonBuilder()
-                .setLenient()
-                .create();
-
-        Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl(BASE_URL)
-                .addConverterFactory(GsonConverterFactory.create(gson))
-                .build();
-
-        AnimeRestAPI animeAPI = retrofit.create(AnimeRestAPI.class);
+        AnimeRestAPI animeAPI = Singleton.getRestApi();
 
         Call<ListResponse> call = animeAPI.getListAnime();
 

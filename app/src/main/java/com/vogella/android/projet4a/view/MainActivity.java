@@ -2,18 +2,10 @@ package com.vogella.android.projet4a.view;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentManager;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
 
-import com.vogella.android.projet4a.AnimeFragment;
 import com.vogella.android.projet4a.R;
-import com.vogella.android.projet4a.controller.MainController;
-import com.vogella.android.projet4a.model.Anime;
-import com.vogella.android.projet4a.view.MyAdapter;
-
-import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
