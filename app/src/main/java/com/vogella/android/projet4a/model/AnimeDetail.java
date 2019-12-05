@@ -3,7 +3,11 @@ package com.vogella.android.projet4a.model;
 public class AnimeDetail {
 
     private String synopsis;
-    private String img_url;
+    private String image_url;
+    private String title;
+    private String rating;
+    private float score;
+    private int popularity;
 
     public AnimeDetail() {
     }
@@ -14,6 +18,20 @@ public class AnimeDetail {
 
 
     public String getImg_url() {
-        return img_url;
+        return image_url;
+    }
+
+
+    public String getTitle() {
+        return title;
+    }
+    public float getScore() {
+        return score;
+    }
+    public String getRating() {
+        return rating;
+    }
+    public int getPopularity(){
+        return popularity;
     }
 }
