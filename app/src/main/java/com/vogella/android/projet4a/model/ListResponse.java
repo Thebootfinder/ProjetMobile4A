@@ -3,7 +3,7 @@ package com.vogella.android.projet4a.model;
 import com.vogella.android.projet4a.model.Anime;
 
 import java.util.List;
-
+// top/anime/ reponse detaillé des [ ] 
 public class ListResponse {
 
 // reponse pour top/anime

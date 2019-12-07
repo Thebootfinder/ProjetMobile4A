@@ -1,8 +1,7 @@
-package com.vogella.android.projet4a;
+package com.vogella.android.projet4a.RestApi;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import com.vogella.android.projet4a.RestApi.AnimeRestAPI;
 
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;

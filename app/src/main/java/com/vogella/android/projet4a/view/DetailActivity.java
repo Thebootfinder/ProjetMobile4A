@@ -36,9 +36,14 @@ public class DetailActivity extends AppCompatActivity {
         detailcontroller.onCreate(idAnime);
     }
 
-    public void showDetails(String Synopsie, String image_url, float score , String title , String rating, int popularity) {
+    public void showDetails(String Synopsie, String image_url, float score , String title , String rating,int favorites, int popularity) {
         TextView textSynopsis = findViewById(R.id.synopsis);
         textSynopsis.setText(Synopsie);
+
+      /*  if (image_url != null) {
+            ImageView imageView = findViewById(R.id.img_url);
+            Picasso.with(this).load(image_url).into(imageView);
+        }*/
 
         TextView textTitle = findViewById(R.id.title);
         textTitle.setText(title);
@@ -46,8 +51,8 @@ public class DetailActivity extends AppCompatActivity {
         TextView textTagline = findViewById(R.id.rating);
         textTagline.setText(rating);
 
-     // TextView textRank = findViewById(R.id.rank);
-    //    textRank.setText(popularity);
+    // TextView textRank = findViewById(R.id.rank);
+    //   textRank.setText(favorites);
 
         TextView textVote_average = findViewById(R.id.note);
         DecimalFormat df = new DecimalFormat("#.##");

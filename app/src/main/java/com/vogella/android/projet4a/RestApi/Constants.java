@@ -1,4 +1,4 @@
-package com.vogella.android.projet4a;
+package com.vogella.android.projet4a.RestApi;
 
 public class Constants {
 

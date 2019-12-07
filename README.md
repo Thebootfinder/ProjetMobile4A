@@ -1,10 +1,12 @@
-﻿# Application Top Anime
+﻿Projet Martin GEILLON 4A
+
+# Application Top Anime
 
 ## Présentation
 
-Premier projet utilisant Android Studio. Projet démontrant l'utilisation d'une architecture MVC dans une application android codé en Java
+Premier projet utilisant Android Studio. Projet démontrant l'utilisation d'une architecture MVC dans une application android codé en Java.
 
-L'application affiche le Top des animes en se basant sur la note averall, affiche également une vue détaillé des animes en cliquant dessus. Utilisation d'une API.
+L'application affiche le Top des animes en se basant sur la note overall, affiche également une vue détaillé des animes en cliquant dessus. Utilisation d'une API.
 
 
 ## Prérequis
@@ -35,7 +37,7 @@ https://github.com/Thebootfinder/ProjetMobile4A.git
 
 - SplashScreen affichant une image d'introducton 
 
-<img src="readme_img/splashscreen.JPG" alt="splash" width="250">
+<img src="readme_img/splashscreen.jpg" alt="splash" width="250">
 
 ### Ecran d'Accueil  
 
@@ -45,7 +47,7 @@ https://github.com/Thebootfinder/ProjetMobile4A.git
   - Note avec un affichage étoile 
   - Date de sortie
 
-<img src="readme_img/top_liste.JPG" alt="liste" width="250" class="centered">
+<img src="readme_img/top_liste.jpg" alt="liste" width="250" class="centered">
 
 ### Ecran détail de l'anime
 
@@ -58,7 +60,7 @@ https://github.com/Thebootfinder/ProjetMobile4A.git
 - Utilisation d'une ScrollView si trop d'information 
 
 
-<img src="readme_img/detail_anime.JPG" alt="détail" width="250" class="centered">
+<img src="readme_img/detail_anime.jpg" alt="détail" width="250" class="centered">
 
 ### Compétence apprise 
 

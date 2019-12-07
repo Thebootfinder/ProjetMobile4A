@@ -8,6 +8,7 @@ public class AnimeDetail {
     private String rating;
     private float score;
     private int popularity;
+    private int favorites;
 
     public AnimeDetail() {
     }
@@ -33,5 +34,9 @@ public class AnimeDetail {
     }
     public int getPopularity(){
         return popularity;
+    }
+
+    public int getFavorites() {
+        return favorites;
     }
 }
