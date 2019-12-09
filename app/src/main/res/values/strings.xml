@@ -8,4 +8,5 @@
     <string name="age">age</string>
     <string name="classement">classement</string>
     <string name="synop">synopsis</string>
+    <string name="image_splash">image-splash</string>
 </resources>
