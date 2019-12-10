@@ -28,6 +28,7 @@
         android:layout_toRightOf="@id/icon"
         android:layout_marginRight="85dp" />
 
+
     <TextView
         android:id="@+id/secondLine"
         android:layout_width="250dp"
@@ -51,12 +52,12 @@
         android:layout_above="@id/secondLine"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
         android:layout_toEndOf="@id/icon"
+        android:layout_toRightOf="@id/icon"
         android:gravity="center_vertical"
         android:textColor="@android:color/white"
-        android:textSize="16sp"
-        android:layout_toRightOf="@id/icon"
-        android:layout_alignParentRight="true" />
+        android:textSize="16sp" />
 
 
 </RelativeLayout>

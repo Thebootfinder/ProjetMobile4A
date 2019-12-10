@@ -15,7 +15,7 @@ public class Manga {
     private Object endDate;
     private Integer members;
     private Double score;
-    private String imageUrl;
+    private String image_url;
     private Map<String, Object> additionalProperties = new HashMap<String, Object>();
 
     public Integer getMalId() {
@@ -98,12 +98,10 @@ public class Manga {
         this.score = score;
     }
 
-    public String getImageUrl() {
-        return imageUrl;
-    }
+    public String getImage_url() { return image_url; }
 
     public void setImageUrl(String imageUrl) {
-        this.imageUrl = imageUrl;
+        this.image_url = image_url;
     }
 
     public Map<String, Object> getAdditionalProperties() {

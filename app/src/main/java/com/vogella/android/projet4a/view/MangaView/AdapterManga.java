@@ -119,7 +119,7 @@ public class AdapterManga extends RecyclerView.Adapter<AdapterManga.ViewHolder> 
         }
         // holder.txtFooter.setText("Footer: " + name);
         holder.txtLower.setText(currentManga.getType());
-        Picasso.with(context).load(currentManga.getImageUrl()).into(holder.imgView);
+        Picasso.with(context).load(currentManga.getImage_url()).into(holder.imgView);
     }
 
 
