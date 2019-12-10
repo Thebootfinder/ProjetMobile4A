@@ -1,4 +1,4 @@
-package com.vogella.android.projet4a.view;
+package com.vogella.android.projet4a.view.AnimeView;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -13,8 +13,8 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.vogella.android.projet4a.R;
-import com.vogella.android.projet4a.controller.MainController;
-import com.vogella.android.projet4a.model.Anime;
+import com.vogella.android.projet4a.controller.AnimeController.MainController;
+import com.vogella.android.projet4a.model.AnimeModel.Anime;
 
 import java.util.List;
 

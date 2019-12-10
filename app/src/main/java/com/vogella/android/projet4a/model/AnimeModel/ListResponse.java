@@ -1,6 +1,6 @@
-package com.vogella.android.projet4a.model;
+package com.vogella.android.projet4a.model.AnimeModel;
 
-import com.vogella.android.projet4a.model.Anime;
+import com.vogella.android.projet4a.model.AnimeModel.Anime;
 
 import java.util.List;
 // top/anime/ reponse detaillé des [ ]

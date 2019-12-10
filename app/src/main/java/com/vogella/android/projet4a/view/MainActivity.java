@@ -9,6 +9,7 @@ import android.os.Bundle;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.vogella.android.projet4a.R;
+import com.vogella.android.projet4a.view.AnimeView.AnimeFragment;
 import com.vogella.android.projet4a.view.MangaView.MangaFragment;
 
 public class MainActivity extends AppCompatActivity {

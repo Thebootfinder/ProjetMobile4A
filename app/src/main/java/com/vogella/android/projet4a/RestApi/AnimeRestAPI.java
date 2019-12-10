@@ -1,8 +1,8 @@
 package com.vogella.android.projet4a.RestApi;
 
 
-import com.vogella.android.projet4a.model.AnimeDetail;
-import com.vogella.android.projet4a.model.ListResponse;
+import com.vogella.android.projet4a.model.AnimeModel.AnimeDetail;
+import com.vogella.android.projet4a.model.AnimeModel.ListResponse;
 import com.vogella.android.projet4a.model.MangaModel.ListResponseManga;
 
 import retrofit2.Call;

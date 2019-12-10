@@ -1,4 +1,4 @@
-package com.vogella.android.projet4a.view;
+package com.vogella.android.projet4a.view.AnimeView;
 
 
 import java.text.DecimalFormat;
@@ -16,7 +16,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.squareup.picasso.Picasso;
 import com.vogella.android.projet4a.R;
-import com.vogella.android.projet4a.model.Anime;
+import com.vogella.android.projet4a.model.AnimeModel.Anime;
 
 public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
 

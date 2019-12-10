@@ -1,21 +1,16 @@
-package com.vogella.android.projet4a.view;
+package com.vogella.android.projet4a.view.AnimeView;
 
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.squareup.picasso.Picasso;
 import com.vogella.android.projet4a.R;
-import com.vogella.android.projet4a.controller.DetailController;
-import com.vogella.android.projet4a.model.Anime;
-import com.vogella.android.projet4a.model.AnimeDetail;
+import com.vogella.android.projet4a.controller.AnimeController.DetailController;
 
 import java.text.DecimalFormat;
-import java.util.List;
 
 public class DetailActivity extends AppCompatActivity {
 

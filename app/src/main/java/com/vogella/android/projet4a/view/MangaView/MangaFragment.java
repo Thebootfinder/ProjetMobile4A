@@ -13,10 +13,9 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.vogella.android.projet4a.R;
-import com.vogella.android.projet4a.controller.MangeController.MangaController;
+import com.vogella.android.projet4a.controller.MangaController.MangaController;
 import com.vogella.android.projet4a.model.MangaModel.Manga;
-import com.vogella.android.projet4a.view.DetailActivity;
-import com.vogella.android.projet4a.view.MyAdapter;
+import com.vogella.android.projet4a.view.AnimeView.DetailActivity;
 
 import java.util.List;
 

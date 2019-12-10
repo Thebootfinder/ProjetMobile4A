@@ -1,4 +1,4 @@
-package com.vogella.android.projet4a.controller.MangeController;
+package com.vogella.android.projet4a.controller.MangaController;
 
 import android.util.Log;
 
