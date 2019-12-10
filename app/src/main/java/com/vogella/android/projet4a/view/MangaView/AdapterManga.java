@@ -95,12 +95,12 @@ public class AdapterManga extends RecyclerView.Adapter<AdapterManga.ViewHolder> 
         // - replace the contents of the view with that element
         final Manga currentManga = values.get(position);
         holder.txtHeader.setText(currentManga.getTitle());
-        holder.itemView.setOnClickListener(new OnClickListener() {
+     /*   holder.itemView.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
                 listener.onItemClick(currentManga);
             }
-        });
+        });*/
 
 
         DecimalFormat df = new DecimalFormat("#.##");

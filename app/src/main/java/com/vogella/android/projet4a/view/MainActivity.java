@@ -11,6 +11,7 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.vogella.android.projet4a.R;
 import com.vogella.android.projet4a.view.AnimeView.AnimeFragment;
 import com.vogella.android.projet4a.view.MangaView.MangaFragment;
+import com.vogella.android.projet4a.view.MangaView.ThreeFragment;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -24,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
                 showFragment(new MangaFragment());
                 return true;
             case R.id.favorites:
-               showFragment(new AnimeFragment());
+               showFragment(new ThreeFragment());
                 return true;
         }
         return false;
