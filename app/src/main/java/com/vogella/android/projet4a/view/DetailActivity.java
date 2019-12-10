@@ -48,10 +48,13 @@ public class DetailActivity extends AppCompatActivity {
         textTitle.setText(title);
 
         TextView textTagline = findViewById(R.id.rating);
-        textTagline.setText("Public" + rating);
+        textTagline.setText("Public : " + rating);
 
         TextView textRank = findViewById(R.id.rank);
-       textRank.setText("Classement note:" + String.format(String.valueOf(rank)));
+       textRank.setText("Classement note : " + String.format(String.valueOf(rank)));
+
+        TextView textPopularity = findViewById(R.id.popularity);
+        textPopularity.setText("Classement popularité : " + String.format(String.valueOf(popularity)));
 
 
 

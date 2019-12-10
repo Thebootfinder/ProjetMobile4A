@@ -9,6 +9,7 @@ import android.os.Bundle;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.vogella.android.projet4a.R;
+import com.vogella.android.projet4a.view.MangaView.MangaFragment;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -19,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
                 showFragment(new AnimeFragment());
                 return true;
             case R.id.to_see:
-                showFragment(new AnimeFragment());
+                showFragment(new MangaFragment());
                 return true;
             case R.id.favorites:
                showFragment(new AnimeFragment());
