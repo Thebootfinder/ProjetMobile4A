@@ -27,14 +27,15 @@ public class DetailController {
             public void onResponse(Call<AnimeDetail> call, Response<AnimeDetail> response) {
                 AnimeDetail anime = response.body();
                 String synopsie = anime.getSynopsis();
-                String image_url = anime.getImg_url();
+                String image_url = anime.getImageUrl();
                 String title = anime.getTitle();
                 String rating = anime.getRating();
-                float score = anime.getScore();
+                Double score = anime.getScore();
                 int favorites = anime.getFavorites();
                 int popularity = anime.getPopularity();
+                int rank = anime.getRank();
 
-                activity.showDetails(synopsie, image_url, score, title,  rating, favorites , popularity);
+                activity.showDetails(synopsie, image_url, score, title,  rating, favorites , popularity, rank);
             }
             @Override
             public void onFailure(Call<AnimeDetail> call, Throwable t) {
