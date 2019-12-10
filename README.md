@@ -39,7 +39,7 @@ https://github.com/Thebootfinder/ProjetMobile4A.git
 
 <img src="readme_img/splashscreen.JPG" alt="splash" width="250">
 
-### Ecran d'Accueil  
+### Ecran Top Anime 
 
 - Affichage de la liste Top Anime avec : 
   - Affiche de l'Anime
@@ -48,6 +48,17 @@ https://github.com/Thebootfinder/ProjetMobile4A.git
   - Date de sortie
 
 <img src="readme_img/top_liste.JPG" alt="liste" width="250" class="centered">
+
+### Ecran Top Manga
+
+- Affichage de la liste Top Manga avec : 
+  - Affiche de l'Anime
+  - Nom de l'anime
+  - Note avec un affichage étoile 
+  - Genre
+
+
+<img src="readme_img/detail_manga.JPG" alt="liste" width="250" class="centered">
 
 ### Ecran détail de l'anime
 

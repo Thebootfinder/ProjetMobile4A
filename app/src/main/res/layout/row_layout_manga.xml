@@ -21,25 +21,25 @@
         android:layout_width="250dp"
         android:layout_height="26dp"
         android:layout_alignParentBottom="true"
-        android:layout_toEndOf="@id/icon"
+        android:layout_toEndOf="@id/icon2"
         android:layout_marginEnd="85dp"
         android:textColor="@color/colorAccent"
         android:textSize="14sp"
-        android:layout_toRightOf="@id/icon"
+        android:layout_toRightOf="@id/icon2"
         android:layout_marginRight="85dp" />
 
     <TextView
         android:id="@+id/secondLine2"
         android:layout_width="250dp"
         android:layout_height="26dp"
-        android:layout_above="@+id/thirdLine"
+        android:layout_above="@+id/thirdLine2"
         android:layout_alignParentEnd="true"
         android:layout_marginEnd="85dp"
         android:layout_marginBottom="0dp"
-        android:layout_toEndOf="@id/icon"
+        android:layout_toEndOf="@id/icon2"
         android:textColor="@color/colorAccent"
         android:textSize="14sp"
-        android:layout_toRightOf="@id/icon"
+        android:layout_toRightOf="@id/icon2"
         android:layout_marginRight="85dp"
         android:layout_alignParentRight="true" />
 
@@ -51,11 +51,11 @@
         android:layout_above="@id/secondLine2"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_toEndOf="@id/icon"
+        android:layout_toEndOf="@id/icon2"
         android:gravity="center_vertical"
         android:textColor="@android:color/white"
         android:textSize="16sp"
-        android:layout_toRightOf="@id/icon"
+        android:layout_toRightOf="@id/icon2"
         android:layout_alignParentRight="true" />
 
 

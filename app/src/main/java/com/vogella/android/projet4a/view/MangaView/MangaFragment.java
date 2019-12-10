@@ -1,5 +1,6 @@
 package com.vogella.android.projet4a.view.MangaView;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -14,6 +15,8 @@ import android.view.ViewGroup;
 import com.vogella.android.projet4a.R;
 import com.vogella.android.projet4a.controller.MangeController.MangaController;
 import com.vogella.android.projet4a.model.MangaModel.Manga;
+import com.vogella.android.projet4a.view.DetailActivity;
+import com.vogella.android.projet4a.view.MyAdapter;
 
 import java.util.List;
 
@@ -55,14 +58,14 @@ public class MangaFragment extends Fragment {
 
 
 
-       /* RecyclerView.Adapter mAdapter = new MyAdapter(input, getActivity(), new MyAdapter.OnItemClickListener() {
+       RecyclerView.Adapter mAdapter = new AdapterManga(input, getActivity(), new AdapterManga.OnItemClickListener() {
             @Override
-         /  public void onItemClick(Manga item) {
+           public void onItemClick(Manga item) {
                 Intent intent = new Intent(getContext(), DetailActivity.class);
-                intent.putExtra(MyAdapter.ID_ANIME, item.getMal_id());
+                intent.putExtra(AdapterManga.ID_MANGA, item.getMalId());
                 startActivity(intent);
             }
-        });*/
+        });
         recyclerView.setAdapter(mAdapter);
 
        /*
