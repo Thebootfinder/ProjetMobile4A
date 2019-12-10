@@ -3,11 +3,11 @@ package com.vogella.android.projet4a.model;
 import com.vogella.android.projet4a.model.Anime;
 
 import java.util.List;
-// top/anime/ reponse detaillé des [ ] 
+// top/anime/ reponse detaillé des [ ]
 public class ListResponse {
 
 // reponse pour top/anime
-    
+
     private String request_hash;
     private boolean request_cached;
     private int request_cache_expiry;

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/movie_list"
+        android:icon="@drawable/top"
+        android:title="Top Anime" />
+
+    <item
+        android:id="@+id/to_see"
+        android:icon="@drawable/boite"
+        android:title="Top Manga" />
+
+    <item
+        android:id="@+id/favorites"
+        android:icon="@drawable/favorites"
+        android:title="Other" />
+
+
+</menu>

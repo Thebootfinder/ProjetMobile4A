@@ -24,7 +24,7 @@ https://github.com/Thebootfinder/ProjetMobile4A.git
 - Affichage d'une liste dans un RecyclerView
 - Affichage des détails d'un item de la liste en cliquant dessus
 - Architecture MVC 
-- Utilisation de Fragment 
+- Utilisation des Fragments 
 - GIT
 - Fonctions supplémentaires :
   - Singleton

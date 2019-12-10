@@ -6,7 +6,7 @@
     android:padding="6dip">
 
     <ImageView
-        android:id="@+id/icon"
+        android:id="@+id/icon2"
         android:layout_width="wrap_content"
         android:layout_height="fill_parent"
         android:layout_alignParentTop="true"
@@ -17,7 +17,7 @@
 
 
     <TextView
-        android:id="@+id/thirdLine"
+        android:id="@+id/thirdLine2"
         android:layout_width="250dp"
         android:layout_height="26dp"
         android:layout_alignParentBottom="true"
@@ -29,7 +29,7 @@
         android:layout_marginRight="85dp" />
 
     <TextView
-        android:id="@+id/secondLine"
+        android:id="@+id/secondLine2"
         android:layout_width="250dp"
         android:layout_height="26dp"
         android:layout_above="@+id/thirdLine"
@@ -44,11 +44,11 @@
         android:layout_alignParentRight="true" />
 
     <TextView
-        android:id="@+id/firstLine"
+        android:id="@+id/firstLine2"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_alignWithParentIfMissing="true"
-        android:layout_above="@id/secondLine"
+        android:layout_above="@id/secondLine2"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_toEndOf="@id/icon"

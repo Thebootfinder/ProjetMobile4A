@@ -4,9 +4,13 @@
     <string name="synopsie">Synopsis</string>
     <string name="titre">titre</string>
     <string name="note">note</string>
-    <string name="rank">Rank</string>
+    <string name="rank">Rank et Popularité </string>
     <string name="age">age</string>
     <string name="classement">classement</string>
     <string name="synop">synopsis</string>
     <string name="image_splash">image-splash</string>
+    <string name="see">see</string>
+    <string name="favorites">favorites</string>
+    <string name="list">list</string>
+    <string name="top">Top</string>
 </resources>
