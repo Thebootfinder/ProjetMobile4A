@@ -1,4 +1,4 @@
-package com.vogella.android.projet4a.view.MangaView;
+package com.vogella.android.projet4a.view.mangaview;
 
 
 import java.text.DecimalFormat;
@@ -7,7 +7,6 @@ import java.util.List;
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
-import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -16,7 +15,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.squareup.picasso.Picasso;
 import com.vogella.android.projet4a.R;
-import com.vogella.android.projet4a.model.MangaModel.Manga;
+import com.vogella.android.projet4a.model.mangamodel.Manga;
 
 public class AdapterManga extends RecyclerView.Adapter<AdapterManga.ViewHolder> {
 

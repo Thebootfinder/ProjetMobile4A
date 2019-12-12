@@ -1,4 +1,4 @@
-package com.vogella.android.projet4a.RestApi;
+package com.vogella.android.projet4a.restapi;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;

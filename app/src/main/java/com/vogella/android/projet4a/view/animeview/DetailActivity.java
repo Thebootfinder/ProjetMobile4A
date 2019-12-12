@@ -1,4 +1,4 @@
-package com.vogella.android.projet4a.view.AnimeView;
+package com.vogella.android.projet4a.view.animeview;
 
 
 import android.content.Intent;
@@ -8,7 +8,7 @@ import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.vogella.android.projet4a.R;
-import com.vogella.android.projet4a.controller.AnimeController.DetailController;
+import com.vogella.android.projet4a.controller.animecontroller.DetailController;
 
 import java.text.DecimalFormat;
 

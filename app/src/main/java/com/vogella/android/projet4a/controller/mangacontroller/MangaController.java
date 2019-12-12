@@ -1,12 +1,12 @@
-package com.vogella.android.projet4a.controller.MangaController;
+package com.vogella.android.projet4a.controller.mangacontroller;
 
 import android.util.Log;
 
-import com.vogella.android.projet4a.RestApi.AnimeRestAPI;
-import com.vogella.android.projet4a.RestApi.Singleton;
-import com.vogella.android.projet4a.model.MangaModel.ListResponseManga;
-import com.vogella.android.projet4a.model.MangaModel.Manga;
-import com.vogella.android.projet4a.view.MangaView.MangaFragment;
+import com.vogella.android.projet4a.restapi.AnimeRestAPI;
+import com.vogella.android.projet4a.restapi.Singleton;
+import com.vogella.android.projet4a.model.mangamodel.ListResponseManga;
+import com.vogella.android.projet4a.model.mangamodel.Manga;
+import com.vogella.android.projet4a.view.mangaview.MangaFragment;
 
 import java.util.List;
 

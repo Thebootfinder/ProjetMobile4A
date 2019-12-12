@@ -1,11 +1,11 @@
-package com.vogella.android.projet4a.controller.AnimeController;
+package com.vogella.android.projet4a.controller.animecontroller;
 
 import android.util.Log;
 
-import com.vogella.android.projet4a.RestApi.AnimeRestAPI;
-import com.vogella.android.projet4a.RestApi.Singleton;
-import com.vogella.android.projet4a.model.AnimeModel.AnimeDetail;
-import com.vogella.android.projet4a.view.AnimeView.DetailActivity;
+import com.vogella.android.projet4a.restapi.AnimeRestAPI;
+import com.vogella.android.projet4a.restapi.Singleton;
+import com.vogella.android.projet4a.model.animemodel.AnimeDetail;
+import com.vogella.android.projet4a.view.animeview.DetailActivity;
 
 import retrofit2.Call;
 import retrofit2.Callback;

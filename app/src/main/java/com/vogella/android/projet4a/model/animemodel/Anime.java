@@ -1,4 +1,4 @@
-package com.vogella.android.projet4a.model.AnimeModel;
+package com.vogella.android.projet4a.model.animemodel;
 
 public class Anime {
 

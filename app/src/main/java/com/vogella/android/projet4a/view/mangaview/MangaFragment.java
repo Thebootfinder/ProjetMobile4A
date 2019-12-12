@@ -1,4 +1,4 @@
-package com.vogella.android.projet4a.view.MangaView;
+package com.vogella.android.projet4a.view.mangaview;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -13,9 +13,9 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.vogella.android.projet4a.R;
-import com.vogella.android.projet4a.controller.MangaController.MangaController;
-import com.vogella.android.projet4a.model.MangaModel.Manga;
-import com.vogella.android.projet4a.view.AnimeView.DetailActivity;
+import com.vogella.android.projet4a.controller.mangacontroller.MangaController;
+import com.vogella.android.projet4a.model.mangamodel.Manga;
+import com.vogella.android.projet4a.view.animeview.DetailActivity;
 
 import java.util.List;
 

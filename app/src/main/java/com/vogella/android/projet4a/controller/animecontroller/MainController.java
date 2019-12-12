@@ -1,12 +1,12 @@
-package com.vogella.android.projet4a.controller.AnimeController;
+package com.vogella.android.projet4a.controller.animecontroller;
 
 import android.util.Log;
 
-import com.vogella.android.projet4a.RestApi.AnimeRestAPI;
-import com.vogella.android.projet4a.RestApi.Singleton;
-import com.vogella.android.projet4a.view.AnimeView.AnimeFragment;
-import com.vogella.android.projet4a.model.AnimeModel.Anime;
-import com.vogella.android.projet4a.model.AnimeModel.ListResponse;
+import com.vogella.android.projet4a.restapi.AnimeRestAPI;
+import com.vogella.android.projet4a.restapi.Singleton;
+import com.vogella.android.projet4a.view.animeview.AnimeFragment;
+import com.vogella.android.projet4a.model.animemodel.Anime;
+import com.vogella.android.projet4a.model.animemodel.ListResponse;
 
 import java.util.List;
 

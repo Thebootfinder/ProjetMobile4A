@@ -1,4 +1,4 @@
-package com.vogella.android.projet4a.model.MangaModel;
+package com.vogella.android.projet4a.model.mangamodel;
 
 import java.util.HashMap;
 import java.util.List;

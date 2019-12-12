@@ -6,7 +6,7 @@
 
 Premier projet utilisant Android Studio. Projet démontrant l'utilisation d'une architecture MVC dans une application android codé en Java.
 
-L'application affiche le Top des animes en se basant sur la note overall, affiche également une vue détaillé des animes en cliquant dessus. Utilisation d'une API.
+L'application affiche le Top des animes et le top des Mangas en se basant sur la note overall, affiche également une vue détaillé des animes en cliquant dessus. Utilisation d'une API.
 
 
 ## Prérequis
@@ -21,7 +21,7 @@ https://github.com/Thebootfinder/ProjetMobile4A.git
 ## Consignes respectées : 
 
 - Appels API REST
-- Affichage d'une liste dans un RecyclerView
+- Affichage d'une liste dans un RecyclerView (2)
 - Affichage des détails d'un item de la liste en cliquant dessus
 - Architecture MVC 
 - Utilisation des Fragments 
@@ -72,6 +72,41 @@ https://github.com/Thebootfinder/ProjetMobile4A.git
 
 
 <img src="readme_img/detail_anime.JPG" alt="détail" width="250" class="centered">
+
+## Architecture MVC
+
+<pre><code>
++-- app/
+|   +-- manifests/
+|   |   +-- AndroidManifest.xml
+|   +-- java/
+|   |   +-- com.example.projet4a/
+|   |   |   +-- controller/
+|   |   |   |   +-- animecontroller/
+|   |   |   |   |   +-- (*.java)
+|   |   |   |   +-- mangacontroller/
+|   |   |   |   |   +-- (*.java)
+|   |   |   +-- model/
+|   |   |   |   +-- animemodel/
+|   |   |   |   |   +-- (*.java)
+|   |   |   |   +-- mangamodel/
+|   |   |   |   |   +-- (*.java)
+|   |   |   +-- restapi/
+|   |   |   |   +-- (*.java)
+|   |   |   +-- view/
+|   |   |   |   +-- animeview/
+|   |   |   |   |   +-- (*.java)
+|   |   |   |   +-- mangaview/
+|   |   |   |   |   +-- (*.java)
+|   |   |   |   +-- activity3/
+|   |   |   |   |   +-- (*.java)
+|   +-- res/
+|   |   +-- drawable/, font/, layout/, menu/, mipmap/, values/
+|   |   |   +-- (*.xml)
+|   |   |   +-- (*.png)
++-- Gradle Scripts/
+</code></pre>
+
 
 ### Compétence apprise 
 
