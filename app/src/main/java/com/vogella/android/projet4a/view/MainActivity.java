@@ -9,9 +9,10 @@ import android.os.Bundle;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.vogella.android.projet4a.R;
+import com.vogella.android.projet4a.view.searchview.SearchFragment;
 import com.vogella.android.projet4a.view.animeview.AnimeFragment;
 import com.vogella.android.projet4a.view.mangaview.MangaFragment;
-import com.vogella.android.projet4a.view.activity3.ThreeFragment;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -25,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
                 showFragment(new MangaFragment());
                 return true;
             case R.id.favorites:
-               showFragment(new ThreeFragment());
+               showFragment(new SearchFragment());
                 return true;
         }
         return false;

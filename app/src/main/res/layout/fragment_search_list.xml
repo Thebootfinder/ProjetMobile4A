@@ -2,10 +2,10 @@
 <androidx.recyclerview.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/my_recycler_view3"
-    android:name="com.vogella.android.projet4a.ThreeFragment"
+    android:id="@+id/my_recycler_view_search"
+    android:name="com.vogella.android.projet4a.SearchFragment"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layoutManager="LinearLayoutManager"
-    tools:context=".view.activity3.ThreeFragment"
-    tools:listitem="@layout/row_layout_three_activity" />
+    tools:context=".view.searchview.SearchFragment"
+    tools:listitem="@layout/row_layout_search" />

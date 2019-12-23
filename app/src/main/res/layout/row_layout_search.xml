@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="120dp"
+    android:background="@color/colorPrimaryDark"
+    android:padding="6dip">
+
+    <ImageView
+        android:id="@+id/icon3"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="6dip"
+        android:src="@mipmap/ic_launcher_round"
+        android:layout_marginRight="6dip" />
+
+
+    <TextView
+        android:id="@+id/thirdLine3"
+        android:layout_width="250dp"
+        android:layout_height="26dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@id/icon3"
+        android:layout_marginEnd="85dp"
+        android:textColor="@color/colorAccent"
+        android:textSize="14sp"
+        android:layout_toRightOf="@id/icon3"
+        android:layout_marginRight="85dp" />
+
+
+    <TextView
+        android:id="@+id/secondLine3"
+        android:layout_width="250dp"
+        android:layout_height="26dp"
+        android:layout_above="@+id/thirdLine3"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="85dp"
+        android:layout_marginBottom="0dp"
+        android:layout_toEndOf="@id/icon3"
+        android:textColor="@color/colorAccent"
+        android:textSize="14sp"
+        android:layout_toRightOf="@id/icon3"
+        android:layout_marginRight="85dp"
+        android:layout_alignParentRight="true" />
+
+    <TextView
+        android:id="@+id/firstLine3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_above="@id/secondLine3"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_toEndOf="@id/icon3"
+        android:layout_toRightOf="@id/icon3"
+        android:gravity="center_vertical"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+
+
+</RelativeLayout>
